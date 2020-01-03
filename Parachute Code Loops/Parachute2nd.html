@@ -1,0 +1,82 @@
+<!Doctype HTML>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="What Color is Your Parachute?, Sorter, Richard N. Bolles, Jennifer Clark, Portfolio">
+	<script src="Parachute2ndJLoops.js"></script>
+	<link rel="stylesheet" type="text/css" href="Parachute2ndC.css">
+</head>
+<body>
+	<header>
+		<h1>"What Color is Your Parachute?" Sorter</h1>
+		<p>[Insert Instructions]</p>
+	</header>
+	
+	<h2>Labels for Priorities</h2>
+	
+	<div class="holdLabels">
+		
+		<p>
+			<input type="text" size="30" value="Chocolate"> 
+			<input type="text" size="30" value="Caramel"> 
+			<input type="text" size="30" value="Mint"> 
+			<input type="text" size="30" value="Cherry"> 
+			<input type="text" size="30" value="Coffee">
+		</p>
+		
+		<p>
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30">
+		</p>
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30">
+		<p>
+		</p>
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30"> 
+			<input type="text" size="30">
+	</div>
+	
+	<p>
+		<input type="button" value="Submit Labels" onclick="CollectLabels()">
+	</p>
+	
+	<div id='selection' class="holdSelect">
+		
+	</div>
+	
+	<p id='error'></p>
+	
+	<p>
+		<input type="button" value="Submit Choices" onclick="NumCrunch(priLabels,'result','error')">
+	</p>
+	
+	<h2>The Results</h2>
+	<div class="holdResults">
+		<p>
+			<ul id="result">
+			</ul>
+		</p>
+	</div>
+	
+	<footer>
+		<p>
+			The author of this website in not affiliated with Richard N. Bolles, the author of 
+			“What Color is Your Parachute?” 
+		</p>
+		<p>
+			<a href="http://jobhuntersbible.com">Website of "What Color is Your Parachute?" Author</a>
+		</p>
+	</footer>
+</body>
+
+</html>

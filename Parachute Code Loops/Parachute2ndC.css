@@ -1,0 +1,100 @@
+/*  */
+
+/* The Buttons Look, Big and Floaty (Change Color When Scheme is Decided) */
+input[type="button"] {
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	border-radius: 5px;
+	padding: 1em;
+	margin-bottom: 3em;
+	margin-top: 1em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	box-shadow: 10px 10px 5px rgba( 50, 0, 0, 0.6); 
+}
+
+/*The Text Boxes */
+input[type="text"]{
+	margin: 1em;
+	padding-bottom: 0.3em;
+	padding-top: 0.3em;
+}
+	
+/*Selection boxes on first loading */	
+input[type="select"] {
+	background-color: #FFFFFF;
+	color: #000000;
+	
+}
+
+/* The Background Stuff */
+header {
+	text-align: center;
+	margin-bottom: 2em;
+	display: block;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 2px;
+}
+
+header > p {
+	font-style: italic;
+	color: #505050;		
+}
+
+footer {
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 2px;
+	}
+	
+body {
+	background-color: #FFFFFF;
+	width: 70%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 10%;
+	padding: 2em;
+	font-family: monospace;
+	border-radius: 4em;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	text-align: center;
+	}
+	
+html{
+	background-color: #505050;
+	
+}
+
+/* Classes */
+
+.holdLabels {
+	display: block;
+	/* align: center; */
+	border: 1px solid #505050;
+	border-radius: 2em;
+	text-align:center;
+	
+}
+
+
+.holdSelect {
+	display: block;
+	text-align: center;
+	border: 1px solid #505050;
+	border-radius: 2em;
+}
+
+.holdResults{
+	display: block;
+	border: 1px solid #505050;
+	border-radius: 2em;
+	margin-bottom: 3em;
+}
+
+.holdResults > li {
+	text-align: left;
+}
